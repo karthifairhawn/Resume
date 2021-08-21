@@ -1,0 +1,78 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    margin-top:70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stack-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:37px;
+}
+
+.stack-hr{
+    height:5px;
+    background: black;
+}
+
+/* Header Starts Here */
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header .left-pane{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header .left-pane .fas{
+    color: #19ac08;
+    margin-right: 4px;
+}
+
+.container .header .left-pane .name-branch{
+    display: flex;
+    flex-direction: column;
+}
+.container .header .left-pane .name-branch .header-name{
+    font-size: 55px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.container .header .left-pane .name-branch .header-branch{
+    font-size: 30px;
+    color: #19ac08;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.container .header .left-pane .header-contact{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.container .header .left-pane .header-contact span{
+    padding:3px;
+    font-size: 16px;
+}
+
+.phone-web, .mail-location{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-image{
+    border-radius: 50%;
+    height:170px;
+}
+
+/* Header Ends Here */
+
