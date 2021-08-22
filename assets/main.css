@@ -2,10 +2,16 @@
     font-family: 'Lato', sans-serif;
 }
 
+.hr-dashed {
+    border-top: 1px dashed rgba(0, 0, 0, 0.445);
+ }
+
 .container{
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    padding: 20px;
     margin-top:70px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -76,3 +82,63 @@
 
 /* Header Ends Here */
 
+
+/* Experience Starts */
+
+.experience .exp .title{
+    font-size:30px;
+    font-weight:550;
+}
+
+.experience .exp .company{
+    color: #19ac08;
+    font-size:24px;
+    font-weight: 600;
+}
+
+.experience .exp .duration-place{
+    color:rgb(117, 117, 117);
+    font-size: 14px;
+    padding: 4px;
+}
+
+.experience .exp .duration-place .duration{
+    margin-right: 15px;
+}
+
+.experience .exp .info{
+    color:rgb(117, 117, 117);
+    font-size: 16px;
+    margin:5px;
+}
+.experience .exp .work-note{
+    color:rgb(117, 117, 117);
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+/* Experience Ends Here */
+
+/* Tech Stack Starts */
+
+.tech-stack .tech-stack-cat .title{
+    color:#19ac08;
+    padding: 10px 10px 10px 0px;
+    font-size:27px;
+    margin: 0px;
+}
+
+.tech-stack .tech-stack-cat ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tech-stack .tech-stack-cat ul li{
+    list-style: none;
+    padding: 7px;
+    border-bottom: 1px solid black;
+    margin: 6px;
+    display: inline-block;
+    font-weight: 600;
+}
