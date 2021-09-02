@@ -151,6 +151,7 @@
 }
 .proj-row{
     margin-left: 10px;
+    padding: 10px;
 }
 .proj-row ,.pr{
     display: flex;
