@@ -142,3 +142,46 @@
     display: inline-block;
     font-weight: 600;
 }
+
+/* Project Container Starts */
+
+.projects-info{
+    display: flex;
+    flex-direction: column;  
+}
+.proj-row{
+    margin-left: 10px;
+}
+.proj-row ,.pr{
+    display: flex;
+}
+.pr2{
+    margin-left: 40%;
+}
+.pr{
+    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pr .icon{
+    padding:2px;
+}
+.icon{
+    font-size: 40px;
+    font-weight:600;
+    color:#19ac08;
+}
+
+.projects-info .title_info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1px;
+}
+
+.title{
+    font-size:25px;
+    font-weight: 700;
+}
+
+
