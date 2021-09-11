@@ -169,7 +169,11 @@
     padding:2px;
 }
 .icon{
-    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px !important;
+    margin-right: 10px;
+    font-size: 30px;
     font-weight:600;
     color:#19ac08;
 }
