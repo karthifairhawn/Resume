@@ -156,13 +156,9 @@
 .proj-row ,.pr{
     display: flex;
 }
-.pr2{
-    margin-left: 40%;
-}
+
 .pr{
-    justify-content: flex-end;
-    align-items: flex-start;
-    justify-content: flex-start;
+    width: 100%;
 }
 
 .pr .icon{
@@ -189,4 +185,36 @@
     font-weight: 700;
 }
 
+/* Certifications starts here */
 
+.cert-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-container .cert-row {
+    display: flex;
+    margin-left: 10px;
+}
+
+.cert-container .cert-row .cert{
+    display: flex;
+    flex-direction: column;
+    width:33.33%;
+    color: #19ac08;
+    font-weight: 900;
+    font-size:18px;
+}
+
+.cert-container .cert-row .cert .issued{
+    color: black;
+    font-weight:500;
+    font-size:15px;
+}
+
+.special-line{
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.217);
+    width: 80%;
+    margin: 10px 0px 10px  0px;
+    
+}
