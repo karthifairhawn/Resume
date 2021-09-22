@@ -218,3 +218,39 @@
     margin: 10px 0px 10px  0px;
     
 }
+
+/* Workshop Starts Here */
+
+.workshop-title{
+    font-size:25px;
+    font-weight: 600;      
+}
+
+.issued-by{
+    color: #19ac08;
+    font-weight: 600; 
+}
+
+/* Education starts here  */
+
+.education-title{
+    font-size:25px;
+    font-weight: 400; 
+    padding: 2px 0px;
+}
+.education-inst{
+    font-weight: 600;
+    color: #19ac08;
+    font-family: 'Lato', sans-serif;
+}
+.fa-calendar{
+    font-weight: 400;
+}
+
+.education-row .duration{
+    font-size:12px;
+    padding: 4px 0px;
+}
+.education-container .special-line{
+    width: 100%;
+}
