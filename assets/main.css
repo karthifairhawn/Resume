@@ -233,6 +233,13 @@
 
 /* Education starts here  */
 
+.education-row{
+    display: flex;
+    justify-content: space-between;
+    height:70px;
+}
+
+
 .education-title{
     font-size:25px;
     font-weight: 400; 
@@ -253,4 +260,37 @@
 }
 .education-container .special-line{
     width: 100%;
+}
+.vr-line{
+    border-left: 2px solid black;
+    height:60px;    
+    
+}
+.right-gpa{
+    display: flex;
+    padding: 2px 0px;
+    align-items: center;
+    justify-content: center;    
+    line-height:30px;    
+    width: 160px;
+}
+.right-gpa-content{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    
+}
+.score > *{
+    padding:7px;
+}
+.right-gpa-content .gpa{
+    opacity: 0.7;
+    font-size:13px;
+}
+.right-gpa-content .score-left{
+    color: #19ac08;
+    font-weight: 600;
 }
