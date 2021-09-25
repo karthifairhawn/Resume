@@ -1,5 +1,6 @@
 *{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;    
+    zoom: 102%;
 }
 
 .hr-dashed {
@@ -8,10 +9,6 @@
 
 .container{
     border: 1px solid rgba(0, 0, 0, 0.055);
-    padding: 20px;
-    margin-top:70px;
-    margin-left: 5%;
-    margin-right: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -293,4 +290,61 @@
 .right-gpa-content .score-left{
     color: #19ac08;
     font-weight: 600;
+}
+
+/* Personal Information Starts */
+.personal-row-key{
+    font-weight: 900;    
+    display: inline-block;
+    width: 120px;
+}
+.personal-row-colon{
+    display: inline-block;
+    width:40px;
+}
+
+.personal-row{
+    margin: 15px 0px 15px 0px;
+}
+
+/* Languages Starts */
+
+
+.language-one{
+    width:30%;  
+    display: inline-block;
+    margin-right: 50px;
+}
+.language-two{
+    width:30%;  
+    display: inline-block;    
+}
+.lang-title-level{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+.lang-level{
+    opacity: 0.5;
+}
+.language-strength{    
+    height:7px;
+    background-color:#19ac08;
+    border-radius: 5px;
+    
+}
+.language-strength-container{    
+    background-color: black;
+    border-radius: 5px;
+    padding:0px;
+    margin: 0px;
+}
+
+
+/* a4 line */
+
+.a4-line{
+    border-left: 2px solid black;
+    width:1px;
+    height:100%;
 }
