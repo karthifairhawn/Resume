@@ -64,7 +64,7 @@
 
 .container .header .left-pane .header-contact span{
     padding:3px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .phone-web, .mail-location{
@@ -95,7 +95,7 @@
 
 .experience .exp .duration-place{
     color:rgb(117, 117, 117);
-    font-size: 14px;
+    font-size: 18px;
     padding: 4px;
 }
 
@@ -105,12 +105,12 @@
 
 .experience .exp .info{
     color:rgb(117, 117, 117);
-    font-size: 16px;
+    font-size: 20px;
     margin:5px;
 }
 .experience .exp .work-note{
     color:rgb(117, 117, 117);
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 0px;
 }
 
@@ -129,6 +129,7 @@
     list-style: none;
     padding: 0px;
     margin: 0px;
+    font-size: 24px;
 }
 
 .tech-stack .tech-stack-cat ul li{
@@ -138,6 +139,7 @@
     margin: 6px;
     display: inline-block;
     font-weight: 600;
+    font-size: 20px;
 }
 
 /* Project Container Starts */
@@ -200,13 +202,14 @@
     width:33.33%;
     color: #19ac08;
     font-weight: 900;
-    font-size:18px;
+    font-size:22px;
+    height:100px;
 }
 
 .cert-container .cert-row .cert .issued{
     color: black;
     font-weight:500;
-    font-size:15px;
+    font-size:18px;
 }
 
 .special-line{
@@ -244,6 +247,7 @@
 }
 .education-inst{
     font-weight: 600;
+    font-size:18px;
     color: #19ac08;
     font-family: 'Lato', sans-serif;
 }
@@ -296,7 +300,7 @@
 .personal-row-key{
     font-weight: 900;    
     display: inline-block;
-    width: 120px;
+    width: 140px;    
 }
 .personal-row-colon{
     display: inline-block;
@@ -305,6 +309,7 @@
 
 .personal-row{
     margin: 15px 0px 15px 0px;
+    font-size: 20px;
 }
 
 /* Languages Starts */
