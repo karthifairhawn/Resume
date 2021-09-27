@@ -1,6 +1,5 @@
 *{
-    font-family: 'Lato', sans-serif;    
-    zoom: 102%;
+    font-family: 'Lato', sans-serif;        
 }
 
 .hr-dashed {
@@ -22,6 +21,8 @@
 .stack-hr{
     height:5px;
     background: black;
+
+
 }
 
 /* Header Starts Here */
@@ -46,12 +47,12 @@
     flex-direction: column;
 }
 .container .header .left-pane .name-branch .header-name{
-    font-size: 55px;
+    font-size: 45px;
     font-weight:700;
     text-transform: uppercase;
 }
 .container .header .left-pane .name-branch .header-branch{
-    font-size: 30px;
+    font-size: 25px;
     color: #19ac08;
     font-weight:600;
     text-transform: uppercase;
@@ -202,7 +203,7 @@
     width:33.33%;
     color: #19ac08;
     font-weight: 900;
-    font-size:22px;
+    font-size:20px;
     height:100px;
 }
 
@@ -232,6 +233,8 @@
 }
 
 /* Education starts here  */
+
+
 
 .education-row{
     display: flex;
@@ -313,6 +316,9 @@
 }
 
 /* Languages Starts */
+.language-row{
+    margin-bottom: 30px;
+}
 
 
 .language-one{
