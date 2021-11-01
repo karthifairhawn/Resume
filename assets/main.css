@@ -31,6 +31,9 @@
     display: flex;
     justify-content: space-between;
 }
+.career-obj{
+    padding: 10px;
+}
 
 .container .header .left-pane{
     display: flex;
@@ -60,7 +63,7 @@
 .container .header .left-pane .header-contact{
     display: flex;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .container .header .left-pane .header-contact span{
@@ -87,7 +90,10 @@
     font-size:30px;
     font-weight:550;
 }
-
+.external-link{
+    text-decoration: none;
+    color: inherit;
+}
 .experience .exp .company{
     color: #19ac08;
     font-size:24px;
@@ -183,6 +189,10 @@
 .title{
     font-size:25px;
     font-weight: 700;
+}
+.project-info{
+    padding: 10px;
+    margin: 0px;
 }
 
 /* Certifications starts here */
