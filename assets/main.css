@@ -86,6 +86,9 @@
 
 /* Experience Starts */
 
+.experience{
+    margin-top:-15px;
+}
 .experience .exp .title{
     font-size:30px;
     font-weight:550;
@@ -124,10 +127,26 @@
 /* Experience Ends Here */
 
 /* Tech Stack Starts */
-
+.tech-stack{
+    margin-top:-15px;
+    display: flex;
+    flex-direction: row;
+}
+.left-tech-stack{
+    width: 80%;
+}
+.right-tech-stack{
+    width: 60%;
+}
+.tech-stack-slanding-line{
+    margin-top:47px;
+    border-radius: 5px;
+    border-left:7px solid black;
+    transform: rotate(15deg);
+}
 .tech-stack .tech-stack-cat .title{
     color:#19ac08;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 5px 0px;
     font-size:27px;
     margin: 0px;
 }
@@ -149,7 +168,13 @@
     font-size: 20px;
 }
 
+
+
 /* Project Container Starts */
+
+.projects{
+    margin-top:-10px;
+}
 
 .projects-info{
     display: flex;
