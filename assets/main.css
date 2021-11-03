@@ -40,9 +40,9 @@
     flex-direction: column;
 }
 
-.container .header .left-pane .fas{
+.container .header .left-pane .fas,.fab{
     color: #19ac08;
-    margin-right: 4px;
+    width: 22px;
 }
 
 .container .header .left-pane .name-branch{
@@ -191,7 +191,7 @@
     font-weight: 700;
 }
 .project-info{
-    padding: 10px;
+    padding: 3px;
     margin: 0px;
 }
 
@@ -214,7 +214,7 @@
     color: #19ac08;
     font-weight: 900;
     font-size:20px;
-    height:100px;
+    height:60px;
 }
 
 .cert-container .cert-row .cert .issued{
