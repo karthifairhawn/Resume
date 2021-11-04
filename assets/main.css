@@ -24,6 +24,16 @@
 
 
 }
+.sub-stack-title{
+    font-size:30px;        
+    border-bottom: 1px solid black;
+    /* border-bottom: dashed; */
+    display: inline;    
+}
+.area-of-interest{
+    padding:10px;
+}
+
 
 /* Header Starts Here */
 
@@ -139,10 +149,11 @@
     width: 60%;
 }
 .tech-stack-slanding-line{
-    margin-top:47px;
     border-radius: 5px;
-    border-left:7px solid black;
-    transform: rotate(15deg);
+    /* padding: 10px; */
+    margin: 0px 10px 0px 10px;
+    width: 5px;
+    background-color: black;
 }
 .tech-stack .tech-stack-cat .title{
     color:#19ac08;
@@ -166,6 +177,20 @@
     display: inline-block;
     font-weight: 600;
     font-size: 20px;
+}
+.aof-item{
+    border: 1px solid grey;
+    padding: 2px 5px;
+    margin:5px;
+    color: grey;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #18ac0872;
+    color: white;
+}
+.aof-icon{
+    color: white;
 }
 
 
